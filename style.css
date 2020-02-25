@@ -1,0 +1,49 @@
+.link-color a {
+    color: gray;
+}
+
+body {
+    line-height: 1.5em;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+.carousel-item h2 {
+    color: #1f1f1f;
+    font-size: 41px;
+}
+.carousel-item p {
+    color: #707070;
+    font-size: 14px;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+/* Changing the color of carousel indicator */
+.carousel-indicators li {
+    border: 8px !important;
+    background: lightgrey !important;
+    height: 8px !important;
+    padding: 0;
+    margin: 0;
+    width: 20px !important;
+    margin: 2px;
+    opacity: 1;
+    border-radius: 4px;
+    transition: 0.4s all ease-in-out;
+}
+.carousel-indicators .active {
+    background: #ffcb1c !important;
+    opacity: 1;
+}
