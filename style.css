@@ -87,3 +87,10 @@ hr {
 .pale-order img {
     width: 100%;
 }
+
+@media only screen and (max-width: 570px) {
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+}
