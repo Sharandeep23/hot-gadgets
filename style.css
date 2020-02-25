@@ -13,6 +13,13 @@ body {
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .carousel-item img {
@@ -46,4 +53,37 @@ body {
 .carousel-indicators .active {
     background: #ffcb1c !important;
     opacity: 1;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px #efefef;
+}
+
+hr {
+    height: 6px;
+    background-color: #f39b3d;
+    width: 100px;
+    border-radius: 40px;
+}
+
+.categories img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.category {
+    width: 230px;
+    height: 230px;
+    box-shadow: 1px 1px 8px #efefef;
+    border-radius: 10px;
+}
+
+.pale-order img {
+    width: 100%;
 }
